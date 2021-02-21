@@ -6,13 +6,46 @@ header {
   background: #013369;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr) 6fr 3fr;
+  grid-template-rows: repeat(2, 1fr);
   color: white;
 }
 
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-left: 30px;
+  margin-right: 15px;
+  margin-top: 15px;
+  justify-self: end;
+}
+
 .login {
-  grid-column: span 4;
-  grid-column-start: 4;
+  text-align: left;
+  grid-column-start: 8;
+  margin-right: 30px;
+}
+
+.nfl-player-search {
+  text-align: left;
+  font-size: 20px;
+}
+
+.login-photo {
+  grid-column-start: 7;
+  justify-self: end;
+}
+
+.nfl-logo {
+  justify-self: end;
+  height: 30px;
+  width: 30px;
+}
+
+.container {
+  margin: 20px;
+  background: #EEEEEF;
+  font-size: 30px;
 }
 
 .main-box {
@@ -22,8 +55,10 @@ header {
 }
 
 .small-boxes {
-  background: white;
+   background: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+   font-size: 15px;
+   margin-top: 10px;
 }
 
 .images {
@@ -31,7 +66,30 @@ header {
   height: auto;
 }
 
-.container {
-  margin: 20px;
-  background: #EEEEEF;
+.text {
+  margin-left: 7px;
+}
+
+.labels {
+  font-size: 20px;
+}
+
+.date {
+  margin-top: -10;
+  color: #A4A5A7;
+}
+
+.url {
+  background-color: #EEEEEF;
+  width: 95%
+}
+
+.number {
+  color: #013369;
+  font-size: 20px;
+}
+
+.shares {
+  margin-top: -10px;
+  font-size: 20px;
 }
