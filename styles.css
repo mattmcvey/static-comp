@@ -1,7 +1,9 @@
+/* entire page */
 html {
   background: #EEEEEF;
 }
 
+/* header */
 header {
   background: #013369;
   width: 100%;
@@ -42,6 +44,7 @@ header {
   width: 30px;
 }
 
+/* main body */
 .container {
   margin: 20px;
   background: #EEEEEF;
@@ -54,6 +57,7 @@ header {
   grid-gap: 10px;
 }
 
+/* small boxes */
 .small-boxes {
    background: white;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
@@ -75,7 +79,7 @@ header {
 }
 
 .date {
-  margin-top: -10;
+  margin-top: -15;
   color: #A4A5A7;
 }
 
@@ -87,10 +91,10 @@ header {
 .number {
   color: #013369;
   font-size: 20px;
+  margin-top: -15px;
 }
 
 .shares {
-  margin-top: -10px;
   font-size: 20px;
 }
 
@@ -101,6 +105,18 @@ header {
   width: 22%;
 }
 
-.shares-number {
+.shares-icon {
   color: white;
+}
+
+.shares-number {
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 800px) {
+  .main-box {
+   display: block;
+  }
+
+  
 }
