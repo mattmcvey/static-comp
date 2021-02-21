@@ -93,3 +93,14 @@ header {
   margin-top: -10px;
   font-size: 20px;
 }
+
+.overlay {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 22%;
+}
+
+.shares-number {
+  color: white;
+}
