@@ -7,4 +7,4 @@
 
 
 # Final Design
-![Alt text](./assets/mine.png raw=true "Optional Title")
+![Alt text](/assets/mine.png "Optional Title")
