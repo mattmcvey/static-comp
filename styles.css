@@ -1,0 +1,37 @@
+html {
+  background: #EEEEEF;
+}
+
+header {
+  background: #013369;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+}
+
+.login {
+  grid-column: span 4;
+  grid-column-start: 4;
+}
+
+.main-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.small-boxes {
+  background: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.images {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 20px;
+  background: #EEEEEF;
+}
